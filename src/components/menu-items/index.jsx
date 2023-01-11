@@ -40,15 +40,12 @@ const AddButton = styled.button`
     width: 120px;
     margin-top: 10px;
     height: 35px;
-    background-color: var(--primary-color);
+    font-size: 16px;
+    background-color: var(--secondary-color);
     border: 2px solid var(--primary-color);
-    color: var(--secondary-color);
+    color: black;
     border-radius: 5px;
     :hover{
-        background-color: #66a046;
-        border: 2px solid #518236;
-    }
-    :active {
-        background-color: #68c337;
+        background-color: #d6e8e0;
     }
 `
